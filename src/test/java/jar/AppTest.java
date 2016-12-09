@@ -29,7 +29,7 @@ public class AppTest
     public void testApp2()
     {JsonFactory factory = new JsonFactory();
 // configure, if necessary:
-factory.enable(JsonParser.Feature.ALLOW_COMMENTS)
+factory.enable(JsonParser.Feature.ALLOW_COMMENTS);
         assertTrue( true );
     }
  @Test
